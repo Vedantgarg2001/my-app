@@ -1,0 +1,79 @@
+
+/* src/components/Login.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f7f7f7;
+  }
+  
+  .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ececec, #ffffff);
+  }
+  
+  .login h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .login form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Increased width for more space */
+    text-align: center;
+  }
+  
+  .login form div {
+    margin-bottom: 20px; /* Increased margin for more spacing */
+  }
+  
+  .login form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .login form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+    box-sizing: border-box; /* Ensure padding does not affect total width */
+  }
+  
+  .login form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .login form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .login form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login form button:active {
+    background-color: #004494;
+  }
